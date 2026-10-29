@@ -1,16 +1,13 @@
 {
-  "name": "backend-autenticacion",
+  "name": "centro-cultural-nueva-generacion",
   "version": "1.0.0",
-  "description": "Backend para sistema de gestion de centro educativo con autenticacion mixta (Local + Google)",
+  "description": "Intranet web para el Centro Cultural Nueva Generación",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node server.js"
   },
   "dependencies": {
-  "bcryptjs": "^2.4.3",
-  "cors": "^2.8.5",
-  "express": "^4.19.2",
-  "sqlite3": "^5.1.7"
-}
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
 }
